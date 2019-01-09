@@ -1,0 +1,106 @@
+<div class="card">
+  <div class="image-section">
+    <p>
+    <img src="input image url">
+    </p>
+  </div>
+  <div class="card-section">
+   <h1>Name</h1>
+   <p class="title">Title</p>
+   <div class="content">
+     <h3>Inspiration</h3>
+     <p class="text">○○</p>
+     <h3>Condition</h3>
+     <p class="text">lorem ipsum</p>
+   </div>
+   <div class="link">
+     <p>Character Sheet</p>
+   </div>
+  </div>
+</div>
+
+
+scss
+
+body{
+  background: #eee;
+}
+.card{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content:flex-start;
+}
+.image-section{
+  box-shadow: 0 2px 5px #ccc;
+  border-radius: 5px 0 0 5px;
+  width: 150px;
+  p{
+    margin: 0;
+    height: 100%;
+    border-radius: 5px 0 0 5px;
+    background: #000;
+  }
+  img{
+    display: block;
+    opacity: .5;
+    border-radius: 5px 0 0 5px;
+    width: 100%;
+    height: 100%;
+  }
+}
+.card-section{
+  padding: 1rem;
+  padding-top: 0.1rem;
+  padding-bottom: 0.5rem;
+  border-radius: 0 5px 5px 0;
+  box-shadow: 0 2px 5px #ccc;
+  width: 500px;
+  height: 100%;
+  background: #fff;
+  
+  h1{
+    font-size: 20px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.01rem;
+    padding-bottom: 0.01rem;
+    text-align: right;
+  }
+  
+  .title{
+    margin-top: .1rem;
+    font-size:14px;
+    color: #555;
+    text-align: right;
+    border-bottom: 2px solid #333;
+  }
+  
+  h3{
+    font-size: 15px;
+    color: #222;
+    margin-bottom: 0.2rem;
+    border-bottom: 1px solid #000;
+    
+  }
+  
+  .text{
+    margin-top: 0.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .content{
+    margin-top: 1rem;
+  }
+  .link{
+    margin-left: -1rem;
+    margin-right: -1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-top: 1px solid #ccc;
+    text-align: right;    
+    p{
+      margin: 0;
+      margin-top: 0.5rem;
+      font-size: 13px;
+    }
+  }
+}
