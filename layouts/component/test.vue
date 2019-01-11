@@ -39,22 +39,22 @@
     justify-content:flex-start;
   }
   .image-section{
-    box-shadow: 0 2px 5px #ccc;
+    box-shadow: 0 2px 5px #8c7b75;
     border-radius: 5px 0 0 5px;
-    width: 150px;
+    width: 120px;
     p{
       margin: 0;
       height: 100%;
       border-radius: 5px 0 0 5px;
-      background: #444;
+      background: #8c7b75;
       position: relative;
     }
     img{
       display: block;
-      opacity: .5;
+      opacity: 0.2;
       border-radius: 5px 0 0 5px;
-      width: 50%;
-      height: 50%;
+      width: 100%;
+      height: 100%;
       position: absolute;
       bottom: 0;
       right: 0;
@@ -65,10 +65,10 @@
     padding-top: 0.1rem;
     padding-bottom: 0.5rem;
     border-radius: 0 5px 5px 0;
-    box-shadow: 0 2px 5px #ccc;
+    box-shadow: 0 2px 5px #8c7b75;
     width: 500px;
     height: 100%;
-    background: #fff;
+    background:#efdcd5;
 
     h1{
       font-size: 20px;
