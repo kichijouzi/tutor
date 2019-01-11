@@ -1,0 +1,3 @@
+base  #bcaaa4
+light #efdcd5
+dark  #8c7b75
